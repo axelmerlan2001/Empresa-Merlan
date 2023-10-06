@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        body{
+            background: #dedede;
+        }
+        h1{
+            font-family: Cooper Black;
+            color: #797470;
+            font-size: 40px;
+        }
+        h2{
+            font-family: Cooper Black;
+            color: #797470;
+            font-size: 30px;
+        }
+        h3{
+            font-family: Cooper;
+            color: #797470;
+            font-size: 25px;
+        }
+        fieldset{
+            margin: 5% 10% 2% 10%;
+        }
+        select{
+            margin: 0% 0% 2% 0%;
+        }
+        input[type="password"]{
+            margin: 0% 0% 2% 0%;
+        }
+        input[type="checkbox"]{
+            margin: 0% 0% 3% 7%;
+        }
+    </style>
+</head>
+<body>
+     <center><h1>CONTACTO:</h1></center>
+ <form>
+    <fieldset>
+        <legend><h2>INICIA SESION O REGISTRATE:</h2></legend>
+        <center>
+            <h3>INGRESA TU NOMBRE:</h3>
+            <input type="text" name="nombre">
+            <br>
+            <h3>INGRESA TU CORREO:</h3>
+            <input type="email" name="correo">
+            <br>
+            <h3>INGRESA TU CONTRASEÑA:</h3>
+            <input type="password" name="contraseña">
+        </center>
+    </fieldset>
+ </form>
+ <form>
+    <fieldset>
+        <legend><h2>ESTADO CIVIL Y SEXO:</h2></legend>
+        <center>
+        <center><h3>SEXO:</h3></center>
+        <input type="radio" name="sexo">MASCULINO
+        <input type="radio" name="sexo">FEMENINO
+        <br>
+        <center><h3>ESTADO CIVIL:</h3></center>
+        <select>
+            <option disabled selected>SELECCIONE UNA OPCION</option>
+            <option>CASADO</option>
+            <option>SOLTERO</option>
+            <option>NORMAL</option>
+        </select>
+        </center>
+    </fieldset>
+ </form>
+ <form>
+    <fieldset>
+        <legend><h3>HOBBIES:</h3></legend>
+        <center>
+            <input type="checkbox" name="hobbie">NADAR
+            <input type="checkbox" name="hobbie">CORRER
+            <input type="checkbox" name="hobbie">COMIDA
+            <input type="checkbox" name="hobbie">MUSICA
+    </fieldset>
+ </form>
+</body>
+</html>
